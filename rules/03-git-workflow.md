@@ -8,3 +8,4 @@
 ## 2. Manuelle Commits durch Agenten
 - Nach Abschluss einer zusammenhängenden Aufgabe soll der Agent proaktiv einen manuellen Git-Commit mit prägnanter Commit-Nachricht erstellen (z. B. `feat(api): add auth endpoint`).
 - Bei größeren Meilensteinen direkt pushen (`git push origin main`), ohne auf den 30-Minuten-Takt zu warten.
+

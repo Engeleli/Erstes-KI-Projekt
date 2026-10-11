@@ -8,3 +8,4 @@
 3. **Regeln beachten:** Befolge alle Regeln unter [rules/](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/rules/).
 4. **Spezialisierung:** Nutze die Rollen in [agents/](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/) als Referenz für Architekt, Builder und Reviewer.
 5. **Session-Ende:** Aktualisiere stets `context/CURRENT_STATE.md` vor dem Beenden der Sitzung!
+

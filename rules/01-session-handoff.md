@@ -20,3 +20,4 @@ Sicherstellen, dass der Benutzer jederzeit den KI-Client wechseln kann (z. B. vo
   - Abgeschlossene Punkte abhaken.
   - Neu entstandene offene Punkte und nächste Schritte klar formulieren.
   - Eventuelle Hindernisse (Blocker) oder unvollendete Teilaufgaben beschreiben.
+

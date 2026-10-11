@@ -1,11 +1,14 @@
 # Spezialisierte Agenten-Rollen
 
-In diesem Ordner sind Rollenprofile definiert, die ein Agent (Claude, Gemini, Cursor etc.) je nach Aufgabenstellung einnehmen kann.
+In diesem Ordner sind die Rollenprofile fuer den **historischen Recherche- und Verifikations-Workflow** hinterlegt.
 
-| Rolle | Datei | Fokus |
+| Rolle | Datei | Funktion im Recherche-Workflow |
 |---|---|---|
-| **Planer & Architekt** | [planner.agent.md](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/planner.agent.md) | Anforderungsanalyse, Architektur, Roadmaps, Task-Breakdown |
-| **Entwickler & Builder** | [builder.agent.md](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/builder.agent.md) | Implementierung in `src/`, Refactoring, Fehlerbehebung, Tests |
-| **Reviewer & QA** | [reviewer.agent.md](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/reviewer.agent.md) | Code-Reviews, Sicherheitschecks, Edge-Cases, Konsistenzprüfung |
+| **Archivar** | [archivist.agent.md](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/archivist.agent.md) | Quellen-Recherche, Web- & PDF-Download, SHA-256 Hashes via `src/snapshot.py` |
+| **Quellenkritiker & Faktenpruefer** | [factchecker.agent.md](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/factchecker.agent.md) | Deterministische Zitatpruefung via `src/verifier.py`, Aufdeckung von Halluzinationen |
+| **Abschlussarbeits-Synthesizer** | [synthesizer.agent.md](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/synthesizer.agent.md) | Erstellt wissenschaftliche Exzerpte, Argumentationsboegen und Fußnoten |
 
-Wenn du als Agent angesprochen wirst (z. B. "Agieren als Planer"), übernimm die Verhaltensweisen der entsprechenden Agenten-Datei.
+### Allgemeine Rollen (System-Entwicklung):
+- [planner.agent.md](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/planner.agent.md) — Systemarchitektur & Feature-Planung
+- [builder.agent.md](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/builder.agent.md) — Entwickler & Tool-Builder
+- [reviewer.agent.md](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/reviewer.agent.md) — Code-Review & QA

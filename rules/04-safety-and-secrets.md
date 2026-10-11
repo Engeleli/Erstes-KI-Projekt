@@ -10,3 +10,4 @@
 - Das Host-System ist Windows mit PowerShell.
 - Verwende in PowerShell keine Linux-spezifischen Pipes oder Befehle (z. B. `grep`, `cat` ohne PowerShell-Alias), sondern native Cmdlets oder universelle Pfad-Syntax.
 - Im Code (Python / JS) immer plattformunabhängige Pfade verwenden (`os.path.join` / `pathlib.Path` oder `path.join`).
+

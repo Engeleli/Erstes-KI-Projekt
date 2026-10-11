@@ -1,0 +1,18 @@
+{
+  "description": "Quellenkatalog fuer Abschlussarbeit - Enthaelt alle lokal gesicherten Quellen mit SHA-256 Hashes",
+  "sources": [
+    {
+      "id": "src_001",
+      "title": "Quellenkritik (Wikipedia)",
+      "author": "Unbekannt",
+      "url": "https://de.wikipedia.org/wiki/Quellenkritik",
+      "source_type": "web",
+      "date_accessed": "2026-10-11T18:24:21",
+      "sha256": "5c04ccf2175cdcede97d8d84268e96e8db627f70d65e9c7f1e9c654831655bdf",
+      "text_file": "sources\\raw\\src_001.txt",
+      "raw_file": "sources\\raw\\src_001_raw.html",
+      "char_count": 11885,
+      "verified": true
+    }
+  ]
+}

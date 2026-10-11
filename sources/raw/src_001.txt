@@ -1,0 +1,689 @@
+Quellenkritik – Wikipedia
+
+Zum Inhalt springen
+
+aus Wikipedia, der freien Enzyklopädie
+
+Die
+
+Quellenkritik
+
+versucht festzustellen, unter welchen Umständen eine
+
+Geschichtsquelle
+
+entstanden ist, insbesondere wer sie wann mit welcher Motivation hergestellt hat, und bewertet ihre inhaltliche Zuverlässigkeit. Sie ist eine zentrale Aufgabe der
+
+Geschichtswissenschaft
+
+und als Teil der
+
+historisch-kritischen Methode
+
+ein entscheidendes Merkmal der Wissenschaftlichkeit des Fachs.
+
+Hintergrund
+
+[
+
+Bearbeiten
+
+|
+
+Quelltext bearbeiten
+
+]
+
+Die moderne, methodische Quellenkritik hat zwei Vorläufer: die
+
+philologische
+
+Textkritik
+
+aus der
+
+Renaissance
+
+[
+
+1
+
+]
+
+und die etwas spätere Beschäftigung mit alten
+
+Urkunden
+
+durch die
+
+Diplomatik
+
+, um deren Echtheit und damit die Stichhaltigkeit der mit ihnen verbundenen Aussagekraft festzustellen. Damit können auch mögliche
+
+Geschichtsfälschungen
+
+aufgedeckt werden. Innerhalb der (klassischen) Philologie ist sie oft wegen ihrer Fokussierung auf (verlorene und vermeintlich höherwertige) griechische Vorbilder kritisiert worden; sie hat aber kürzlich in einer aktualisierten Form wieder verstärkt Anwendung gefunden.
+
+[
+
+2
+
+]
+
+Durch den Vergleich einer Quelle mit anderen, durch die Überprüfung der
+
+Plausibilität
+
+von gemachten Aussagen oder durch technische Untersuchungen lassen sich gestellte Fragen oft klären; manchmal lassen sie sich jedoch auch nicht eindeutig beantworten oder erst mit neu entwickelten Untersuchungsmethoden (siehe zum Beispiel
+
+Vinland-Karte
+
+). Quellenkritik muss in gleichem Maße, wenn auch oft mit anderen Methoden, auf nicht-schriftliche Quellen (zum Beispiel
+
+Gebäude
+
+, archäologische
+
+Artefakte
+
+,
+
+[
+
+3
+
+]
+
+Münzen
+
+,
+
+Briefmarken
+
+) angewendet werden. Mit den verschiedenen Quellenarten und den Methoden zu ihrer Kritik befassen sich die
+
+Historischen Hilfswissenschaften
+
+.
+
+Einteilung
+
+[
+
+Bearbeiten
+
+|
+
+Quelltext bearbeiten
+
+]
+
+Bei der Quellenkritik muss man zwischen Aufnahme bzw. Befund einerseits und Deutung andererseits unterscheiden. Der Befund geht dabei immer der Deutung voraus. Die Deutung darf nicht allein aus dem Text geschehen, denn die Entstehungsgeschichte und die historischen Umstände tragen zur Bedeutung bei. Grundsätzlich wird zwischen innerer und äußerer Quellenkritik unterschieden.
+
+Äußere Quellenkritik
+
+[
+
+Bearbeiten
+
+|
+
+Quelltext bearbeiten
+
+]
+
+Die äußere Quellenkritik bezieht sich auf die physische Gestalt der Quelle: Art der Herstellung, die hilfreich zur Feststellung von Ursprungsort und -zeit sein kann, Materialwahl, Textfluss, Wortwahl und Stil, sowie Aufbewahrungsort, Erhaltungszustand und andere Aspekte des Überlieferungszusammenhangs, schließlich die Vollständigkeit der Quelle, sind hier als mögliche Gegenstände der äußeren Kritik zu nennen. Eine ältere Bezeichnung für äußere Quellenkritik ist „
+
+Kritik der Echtheit
+
+“, denn sie gibt Auskunft darüber, ob der angegebene Aussteller oder Hersteller der Quelle auch der tatsächliche ist oder sein kann. Doch auch gesicherte Falsifikate haben Quellenwert, nämlich in Bezug auf den Fälscher.
+
+[
+
+4
+
+]
+
+Ernst Bernheim
+
+fasst die äußere Quellenkritik in seiner vielfach nachgedruckten
+
+Einleitung in die Geschichtswissenschaft
+
+in vier Fragen zusammen:
+
+„1. Entspricht die äußere Form der Quelle […] der Form, die den als echt bekannten sonstigen Quellen derselben Art zur Zeit und am Ort der angeblichen bzw. […] angenommenen Entstehung unserer Quelle eigen ist […]?
+
+2. Entspricht der Inhalt der Quelle dem, was uns sonst aus sicher echten Quellen […] bekannt ist […]?
+
+3. Entsprechen Form […] und Inhalt dem Charakter und ganzen Milieu der Entwicklung, innerhalb deren die Quelle angeblich steht […]?
+
+4. Finden sich in oder an der Quelle Spuren künstlicher, fälschender Mache, wie etwa unglaubwürdige, seltsame Art der Auffindung und Übermittelung […]?“
+
+–
+
+Ernst Bernheim
+
+[
+
+5
+
+]
+
+Innere Quellenkritik
+
+[
+
+Bearbeiten
+
+|
+
+Quelltext bearbeiten
+
+]
+
+Die innere Quellenkritik bezieht sich auf die Frage nach der Qualität der enthaltenen Informationen. Durch Fragen nach der Autorenschaft, dem Adressaten, dem Sinnzusammenhang usw. soll insbesondere geklärt werden, wie
+
+nah
+
+die Quelle örtlich und zeitlich dem berichteten Geschehen steht, da größere Nähe ein Anzeichen für die Qualität der Informationen sein kann. Dies muss allerdings nicht zwangsläufig der Fall sein; so kann eine zeitlich wesentlich später entstandene Schilderung (wie ein
+
+antikes Geschichtswerk
+
+) auf zuverlässigen zeitnahen, inzwischen aber verlorenen Berichten basieren.
+
+[
+
+6
+
+]
+
+Der Aussagewert einer Quelle hängt auch von der jeweiligen Fragestellung ab, daher müssen Kriterien der Nachprüfbarkeit eingehalten werden (z. B. Zugänglichkeit und Nachvollziehbarkeit, die Prüfung der möglichst gesamten relevanten Quellenbasis, eine kritisch und transparente Prüfung unabhängig von der gewählten Fragestellung).
+
+[
+
+7
+
+]
+
+„Quellen sind ein essentielles Element der wissenschaftlichen Erkenntnisarbeit in den Geschichtswissenschaften, da wir über sie die empirische Grundlage des Wissens absichern. Quellen sind immer Spuren in eine vergangene, nicht mehr gegenwärtige und nicht mehr vergegenwärtigbare Vergangenheit. Daher müssen sie kritisch bearbeitet werden im Hinblick auf ihren Aussagewert. Die dazu angewandte quellenkritische Methode ist für jede geschichtswissenschaftliche Forschungsarbeit zentral und unabdingbar.“
+
+–
+
+Stefan Haas
+
+[
+
+8
+
+]
+
+Des Weiteren wird etwa die Plausibilität des Quellengehalts daran geprüft, ob sie überhaupt möglich ist. Da das
+
+„letztlich entscheidende Kriterium für eine Quelle […] ihr Erkenntniswert für die historische Forschung“
+
+[
+
+9
+
+]
+
+ist, kommt bei der Beurteilung von Quellen der „Nähe“ zum Geschehen besonderer Wert zu, wobei teilweise ‚
+
+Primär-‘ und ‚Sekundärquelle
+
+‘ gesprochen wird:
+
+„Der Bericht eines Augenzeugen oder ein Foto wird dabei stets Vorrang gegenüber einem späteren Bericht oder Untersuchungsprotokoll genießen. Man hat hierfür die Bezeichnungen der ‚Primär-‘ bzw. der ‚Sekundärquellen gewählt.‘“
+
+–
+
+Klaus Arnold
+
+[
+
+9
+
+]
+
+Dabei ist die Frage nach dem Urheber einer Quelle,
+
+„seiner Person, seinen Lebensumständen, seiner
+
+Intention
+
+“
+
+[
+
+10
+
+]
+
+besonders wichtig für die innere Quellenkritik:
+
+„Wieviel konnte ein Verfasser von den von ihm berichteten Vorgängen wissen, und wieviel wollte er davon berichten?“
+
+–
+
+Klaus Arnold
+
+[
+
+10
+
+]
+
+Ernst Bernheim unterteilt die Quellenkritik wie folgt:
+
+„
+
+Kritik der Quellen und Daten
+
+[…]
+
+1. Fälschung und Verkennung der Quellen, Interpolation […]
+
+2. Entstehungsort und -zeit der Quellen […]
+
+3. Bestimmung des Autors […]
+
+4. Quellenanalyse […]
+
+5. Rezension und Edition der Quellen […]
+
+6. Prüfung der Zuverlässigkeit […]
+
+7. Feststellung der Tatsachen […]
+
+8. Ordnung der Daten nach Thema, Zeit, Ort […].“
+
+–
+
+Ernst Bernheim
+
+[
+
+11
+
+]
+
+Digitale Quellenkritik
+
+[
+
+Bearbeiten
+
+|
+
+Quelltext bearbeiten
+
+]
+
+Im Angesicht moderner digitalisierter oder originär digitaler Quellen wird die traditionelle Quellenkritik um die Dimension einer Quellenkritik des Digitalen erweitert:
+
+„Die Quellenkritik des Digitalen findet innerhalb des neu etablierten historisch-kritischen Prozesses statt. Die traditionelle Methode wird dabei um den Schritt der Objektsicherung ergänzt, der bei digitalen Objekten aufgrund deren Volatilität und Manipulierbarkeit zwingend durchzuführen ist. Die Eigenschaften eines digitalen Objekts und die damit verbundenen Probleme für die Geschichtswissenschaft erfordern zudem neue Methoden aus der Informationstechnik, um eine quellenkritische Analyse adäquat durchführen zu können.“
+
+–
+
+Pascal Föhr
+
+[
+
+12
+
+]
+
+Ähnlich wie bei traditionellen Quellen ist auch im digitalen Raum oft die Frage wichtig, welche Fassung einer Quelle wann von wem erschaffen und gegebenenfalls verändert wurde, um sie korrekt zu interpretieren.
+
+[
+
+13
+
+]
+
+Siehe auch
+
+[
+
+Bearbeiten
+
+|
+
+Quelltext bearbeiten
+
+]
+
+Geschichtskritik
+
+Geschichtsfälschung
+
+Literatur
+
+[
+
+Bearbeiten
+
+|
+
+Quelltext bearbeiten
+
+]
+
+Stefan Jordan
+
+(Hrsg.):
+
+Lexikon Geschichtswissenschaft. Hundert Grundbegriffe.
+
+Reclam, Stuttgart 2002,
+
+ISBN 3-15-000503-5
+
+.
+
+Friedrich Beck
+
+,
+
+Eckart Henning
+
+(Hrsg.):
+
+Die archivalischen Quellen.
+
+Böhlau, Köln/Weimar/Wien 2004,
+
+ISBN 3-412-04804-6
+
+.
+
+Pascal Föhr:
+
+Historische Quellenkritik im Digitalen Zeitalter.
+
+VWH Verlag Werner Hülsbusch, Glückstadt 2019,
+
+ISBN 3-86488-153-6
+
+(Dissertation Basel 2018). –
+
+Digitalisat auf edoc.unibas.ch
+
+, abgerufen am 21. September 2021;
+
+Rezension von Guido Koller
+
+, auf hsozkult.de, abgerufen am 21. September 2025.
+
+Stefan Haas:
+
+Geschichtswissenschaft. Eine Einführung.
+
+utb basics. Brill/Schöningh, Paderborn 2023.
+
+Klaus Meister
+
+:
+
+Einführung in die Interpretation historischer Quellen. Schwerpunkt Antike.
+
+2 Bände, Ferdinand Schöningh, Paderborn 1997–1999,
+
+ISBN 3-506-99458-1
+
+(Band 1 zu Griechenland) und
+
+ISBN 3-506-99508-1
+
+(Band 2 zu Rom).
+
+Weblinks
+
+[
+
+Bearbeiten
+
+|
+
+Quelltext bearbeiten
+
+]
+
+Wiktionary: Quellenkritik
+
+– Bedeutungserklärungen, Wortherkunft, Synonyme, Übersetzungen
+
+Quellenkritik.
+
+Lerneinheit in:
+
+Geschichte Online
+
+der Universität Wien
+
+Leitfaden zur Quellenkritik
+
+, auf tu-berlin.de
+
+Methode der Quellenkritik
+
+, auf propylaeum.de (in Anlehnung an
+
+Theodor Mommsen
+
+, 1874)
+
+Die W-Fragen
+
+, auf historicum-estudies.uni-koeln.de
+
+Fabio Crivellari:
+
+Quellenkritik
+
+, auf uni-konstanz.de
+
+Lucca Sann, Melvin Pietschmann:
+
+Quellenkritik
+
+, auf geschichte.kit.edu
+
+Digitale Quellenkritik
+
+, auf dhd-blog.org
+
+Fußnoten
+
+[
+
+Bearbeiten
+
+|
+
+Quelltext bearbeiten
+
+]
+
+↑
+
+G. W. Most:
+
+The rise and fall of Quellenforschung.
+
+In: A. Blair, A.-S. Goeing (Hrsg.):
+
+For the sake of learning: essays in honor of Anthony Grafton.
+
+Band 2. Leiden 2016,  S. 933–954.
+
+↑
+
+C. B. Krebs:
+
+Making History: Constructive Wonder (aka Quellenforschung) and the Composition of Caesar’s Gallic War (Thanks to Labienus and Polybius).
+
+In: A. D. Poulsen, A. Jönsson (Hrsg.):
+
+Usages of the Past in Roman Historiography.
+
+Leiden 2021, S. 91–114.
+
+↑
+
+Zur Quellenkritik bei archäologischen Artefakten siehe Christoph Hinker:
+
+Ausgewählte Typologien provinzialrömischer Kleinfunde. Eine theoretische und praktische Einführung
+
+(=
+
+Beiträge zur Archäologie.
+
+Band 8). Lit, Wien/Berlin 2013,
+
+ISBN 978-3-643-50510-1
+
+, S. 18–20.
+
+↑
+
+Klaus Arnold:
+
+Der wissenschaftliche Umgang mit Quellen
+
+. In: Hans-Jürgen Goertz (Hrsg.):
+
+Geschichte. Ein Grundkurs
+
+. 2. Auflage. Rowohlt, Reinbek bei Hamburg 2001, S. 42–58, hier S. 5.
+
+↑
+
+Ernst Bernheim:
+
+Einleitung in die Geschichtswissenschaft
+
+(=
+
+Sammlung Göschen.
+
+Band 270). 3./4. Auflage. De Gruyter, Berlin/Leipzig 1936, S. 140f. (zuerst 1905)
+
+↑
+
+Vgl. auch Stefan Haas:
+
+Geschichtswissenschaft. Eine Einführung.
+
+Paderborn 2023, S. 55.
+
+↑
+
+Stefan Haas:
+
+Geschichtswissenschaft. Eine Einführung.
+
+Paderborn 2023, S. 61 f.
+
+↑
+
+Stefan Haas:
+
+Geschichtswissenschaft. Eine Einführung.
+
+Paderborn 2023, S. 63.
+
+1
+
+2
+
+Klaus Arnold:
+
+Der wissenschaftliche Umgang mit Quellen
+
+. In: Hans-Jürgen Goertz (Hrsg.):
+
+Geschichte. Ein Grundkurs
+
+. 2. Auflage. Rowohlt, Reinbek bei Hamburg 2001, S. 42–58, hier S. 44,
+
+ISBN 3-499-55688-X
+
+.
+
+1
+
+2
+
+Klaus Arnold:
+
+Der wissenschaftliche Umgang mit Quellen
+
+. In: Hans-Jürgen Goertz (Hrsg.):
+
+Geschichte. Ein Grundkurs
+
+. 2. Auflage. Rowohlt, Reinbek bei Hamburg 2001, S. 42–58, hier S. 50.
+
+↑
+
+Ernst Bernheim:
+
+Einleitung in die Geschichtswissenschaft
+
+. De Gruyter, Berlin/Leipzig 1936, S. 4.
+
+↑
+
+Pascal Föhr:
+
+Historische Quellenkritik im Digitalen Zeitalter.
+
+VWH Verlag Werner Hülsbusch, Glückstadt 2019, S. 123.
+
+↑
+
+Christof Rolker
+
+:
+
+Sapienti satis est (?): Zur digitalen Quellenkritik im Kontext von Plagiatsvorwürfen.
+
+In:
+
+Mittelalter.
+
+10.
+
+Januar 2023
+
+,
+
+abgerufen am 28.
+
+Juni 2026
+
+.
+
+Abgerufen von „
+
+https://de.wikipedia.org/w/index.php?title=Quellenkritik&oldid=268334223
+
+“
+
+Kategorien
+
+:
+
+Quellenarbeit
+
+Geschichtsdidaktik
+
+Suche
+
+Quellenkritik
+
+25 Sprachen
+
+Abschnitt hinzufügen

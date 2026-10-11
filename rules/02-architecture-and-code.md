@@ -11,3 +11,4 @@
 - **Typisierung & Doku:** Verwende präzise Typisierungen (TypeScript / Python Type Hints) und dokumentiere nicht-triviale Funktionen und Klassen.
 - **Bestehenden Code respektieren:** Vorhandene Kommentare, Docstrings und Konventionen beibehalten, sofern der Nutzer nichts anderes verlangt.
 - **Tests:** Für Kernlogik im `tests/`-Ordner Unittests anlegen und vor Abschluss ausführen.
+

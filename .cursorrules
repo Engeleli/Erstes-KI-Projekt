@@ -7,3 +7,4 @@ Before writing code:
 2. Follow all rules defined in `rules/` (Session handoff, code standards, git workflow, safety/secrets).
 3. Place application code in `src/`.
 4. Always update `context/CURRENT_STATE.md` when completing a task or ending a session.
+

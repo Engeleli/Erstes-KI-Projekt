@@ -8,3 +8,4 @@
 3. **Regeln beachten:** Befolge alle Regeln unter [rules/](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/rules/).
 4. **Spezialisierung:** Je nach Aufgabenstellung agiere als [planner](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/planner.agent.md), [builder](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/builder.agent.md) oder [reviewer](file:///c:/Users/ellye/Documents/Erstes%20KI%20Projekt/agents/reviewer.agent.md).
 5. **Session-Ende:** Aktualisiere stets `context/CURRENT_STATE.md` vor dem Beenden der Sitzung!
+

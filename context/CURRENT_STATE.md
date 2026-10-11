@@ -8,22 +8,26 @@
 ## 1. Letzter Stand
 - **Datum:** 2026-10-11
 - **Letzter Agent:** Gemini (Antigravity)
-- **Status:** Projektstruktur aufgeräumt, Multi-Agenten-Architektur aufgesetzt, GitHub-Repository angebunden & 30-Minuten-Auto-Push aktiv.
+- **Status:** Historischer Recherche- und Verifikations-Workflow vollstaendig implementiert, getestet und quellengesichert!
 
 ## 2. Zuletzt erledigt
-- [x] Git initialisiert, Remote angebunden: `https://github.com/Engeleli/Erstes-KI-Projekt`
-- [x] Automatischer 30-Minuten-Push via Windows-Aufgabenplanung eingerichtet (`scripts/auto_push.ps1`)
-- [x] Multi-Agent-Infrastruktur aufgesetzt (`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `rules/`, `agents/`, `context/`)
-- [x] Skripte in `scripts/` verschoben und Scheduled Task aktualisiert
+- [x] Python 3.12 und virtuelle Umgebung `.venv` mit `requests`, `beautifulsoup4`, `pypdf` eingerichtet.
+- [x] Deterministische Tools implementiert:
+  - `src/snapshot.py`: Laedt Webseiten/PDFs herunter, erzeugt SHA-256 Hashes und speichert Quellentexte in `sources/raw/`.
+  - `src/verifier.py`: Anti-Halluzinations-Engine; verifiziert Zitate zeilengenau und faengt erfundene Zitate ab.
+  - `src/excerpt.py`: Generiert wissenschaftliche Exzerpte nach Standards der Geschichtswissenschaft.
+- [x] Quellenspeicher `sources/` und `sources/catalog.json` initialisiert.
+- [x] Erste Testquelle gesichert und Verifikation erfolgreich getestet (echtes Zitat -> `VERIFIED`; Fake-Zitat -> `HALLUCINATION_DETECTED`).
+- [x] Regel 05 (`rules/05-historical-grounding-and-citations.md`) hinzugefuegt.
+- [x] Agenten-Rollen `archivist`, `factchecker` und `synthesizer` definiert.
+- [x] Multi-Agent-Infrastruktur und 30-Minuten-Auto-Push aktiv.
 
 ## 3. Offene Punkte / Nächste Schritte
-- [ ] Fachlichen Kontext vom Nutzer einholen: Welches Problem oder welche Anwendung soll hier gebaut werden?
-- [ ] Tech-Stack festlegen (Python, Node/TypeScript, etc.)
-- [ ] `context/PROJECT_CONTEXT.md` mit den konkreten Projektzielen befüllen
-- [ ] `rules/` und `agents/` bei Bedarf auf den gewählten Tech-Stack zuschneiden
-- [ ] Erstes Feature im `src/`-Ordner implementieren
+- [ ] Konkretes Thema der Abschlussarbeit der Studentin erfahren (Epoche, Fragestellung, Personen, Ereignis).
+- [ ] Erste echte Primär-/Sekundärquellen zum konkreten Thema der Studentin recherchieren und mit `src/snapshot.py` archivieren.
+- [ ] Erstes themenspezifisches Exzerpt fuer die Arbeit erstellen.
 
-## 4. Bekannte Einschränkungen & Hinweise
-- Windows-Umgebung mit PowerShell.
-- Dateipfade im Quellcode plattformunabhängig gestalten.
-- Automatische Commits erfolgen alle 30 Minuten, falls ungesicherte Änderungen vorliegen.
+## 4. Wichtige Befehle fuer alle Agenten:
+- **Quelle sichern:** `.\.venv\Scripts\python.exe -m src.snapshot --url "<URL>" --title "<Titel>" --author "<Autor>"`
+- **Zitat pruefen:** `.\.venv\Scripts\python.exe -m src.verifier --source <id> --quote "<Zitat>" --claim "<Aussage>"`
+- **Exzerpt anlegen:** `.\.venv\Scripts\python.exe -m src.excerpt --source <id> --topic "<Thema>"`

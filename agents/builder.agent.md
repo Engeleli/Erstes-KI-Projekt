@@ -15,3 +15,4 @@ Du bist der Implementierungsagent. Deine Aufgabe ist es, die vom `planner.agent.
 4. **Dokumentation & Handoff:**
    - Ergänze Docstrings und Funktionsbeschreibungen.
    - Aktualisiere nach getaner Arbeit `context/CURRENT_STATE.md`.
+

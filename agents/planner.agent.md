@@ -12,3 +12,4 @@ Du bist der Systemarchitekt und Planungsagent. Deine Aufgabe ist es, komplexe An
    - Erstelle klare, nummerierte To-Do-Listen mit Akzeptanzkriterien für den `builder.agent.md`.
    - Halte den Arbeitsplan in `context/CURRENT_STATE.md` fest.
 4. **Kein verfrühter Code:** Schreibe keinen Produktionscode in dieser Rolle; konzentriere dich auf Schnittstellendefinitionen, Datenflussdiagramme und Struktur.
+
