@@ -1,0 +1,30 @@
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+ENV/
+
+# Node / Web
+node_modules/
+.npm
+dist/
+build/
+
+# Logs
+*.log
+auto_push.log
+
+# IDE & Editors
+.vscode/
+.idea/
