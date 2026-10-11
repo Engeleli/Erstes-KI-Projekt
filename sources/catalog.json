@@ -13,6 +13,24 @@
       "raw_file": "sources\\raw\\src_001_raw.html",
       "char_count": 11885,
       "verified": true
+    },
+    {
+      "id": "src_002",
+      "title": "Historische Hilfswissenschaften",
+      "author": "Unbekannt",
+      "url": "https://de.wikipedia.org/wiki/Historische_Hilfswissenschaften",
+      "doi": null,
+      "isbn": "9783825227150",
+      "urn": null,
+      "citavi_quick_id": "9783825227150",
+      "source_type": "web",
+      "date_accessed": "2026-10-11T18:33:06",
+      "sha256": "6eccd7b7692e02f4a53578b866f0c1aba21d6fb01facd4da55e933f6df7c5ec5",
+      "text_file": "sources\\raw\\src_002.txt",
+      "raw_file": "sources\\raw\\src_002_raw.html",
+      "char_count": 17341,
+      "verified": true,
+      "citavi_ris_file": "sources\\citavi\\src_002.ris"
     }
   ]
 }

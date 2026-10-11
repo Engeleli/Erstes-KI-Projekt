@@ -1,7 +1,7 @@
-# Regel 05: Historische Quellentreue & Anti-Halluzination
+# Regel 05: Historische Quellentreue, Citavi-Integration & Anti-Halluzination
 
 ## Ziel
-In geschichtswissenschaftlichen Arbeiten sind erfundene Zitate, falsche Jahreszahlen oder ungepruefte Behauptungen wissenschaftlich inakzeptabel. Diese Regel verpflichtet alle Agenten auf strikte Quellengebundenheit (*Strict Grounding*).
+In geschichtswissenschaftlichen Arbeiten sind erfundene Zitate, falsche Jahreszahlen oder ungepruefte Behauptungen wissenschaftlich inakzeptabel. Diese Regel verpflichtet alle Agenten auf strikte Quellengebundenheit (*Strict Grounding*) und nahtlose Citavi-Kompatibilitaet.
 
 ---
 
@@ -17,19 +17,17 @@ In geschichtswissenschaftlichen Arbeiten sind erfundene Zitate, falsche Jahresza
   ```
 - Gibt das Skript `HALLUCINATION_DETECTED` aus, ist die Aussage **ausnahmslos zu verwerfen**.
 
-## 3. Historische Quellenkritik (W-Fragen)
+## 3. Citavi-Pflicht (ISBN, DOI, URN & RIS-Export)
+Fuer jede Quelle, die erfasst wird, **muss** der Agent nach standardisierten Identifikatoren suchen:
+- **DOI** (Digital Object Identifier) fuer Aufsaetze und Zeitschriftenartikel (z. B. `10.1007/...`).
+- **ISBN** fuer Monografien und Sammelbaende.
+- **URN / Permalink** fuer Digitalisate aus Archiven und Bibliotheken.
+- Das Skript `src/snapshot.py` generiert automatisch einen `.ris`-Datensatz im Ordner `sources/citavi/` sowie in der Sammeldatei `sources/citavi_import.ris`, welcher per Doppelklick direkt in Citavi importiert werden kann.
+
+## 4. Historische Quellenkritik (W-Fragen)
 Jedes Exzerpt in `sources/excerpts/` muss die klassischen geschichtswissenschaftlichen W-Fragen beantworten:
 1. **Wer?** Urheber/Verfasser (sozialer Stand, Rolle, moegliche Eigeninteressen).
 2. **Wann & Wo?** Entstehungszeitpunkt und -ort.
 3. **Quellengattung:** Primaerquelle (aus der Zeit selbst) oder Sekundärliteratur (spaetere Forschung).
 4. **An wen?** Adressat (Amt, Oeffentlichkeit, Tagebuch/privat).
 5. **Wozu?** Tendenz, Absicht, Propaganda oder nuetzliche Sachinformation.
-
-## 4. Vollstaendige Zitation
-Jede Fundstelle muss sofort mit allen Angaben fuer den wissenschaftlichen Anmerkungsapparat (Fußnote / Zotero) versehen werden:
-- Autor / Urheber
-- Titel der Schrift oder Webseite
-- Erscheinungsjahr bzw. Entstehungsdatum
-- Fundstelle (Seitenzahl im PDF oder Zeilennummer im Snapshot)
-- Abrufdatum und SHA-256 Pruefsumme
-

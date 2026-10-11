@@ -1,6 +1,7 @@
 """
 Modul: excerpt.py
-Erstellt aus verifizierten Quellen strukturierte historische Exzerpte fuer die Abschlussarbeit.
+Erstellt aus verifizierten Quellen strukturierte historische Exzerpte fuer die Abschlussarbeit
+inklusive Citavi-Import-Informationen (DOI, ISBN, RIS).
 """
 
 import argparse
@@ -24,9 +25,14 @@ def create_excerpt(source_id: str, thesis_topic: str = "Abschlussarbeit") -> Pat
 
     source = next((s for s in catalog.get("sources", []) if s.get("id") == source_id), None)
     if not source:
-        raise ValueError(f"Quelle '{source_id}' nicht gefunden.")
+        raise ValueError(f"Quelle '{source_id}' nicht im Katalog gefunden.")
 
     excerpt_file = EXCERPTS_DIR / f"{source_id}_exzerpt.md"
+
+    doi_str = source.get("doi") or "Nicht vorhanden"
+    isbn_str = source.get("isbn") or "Nicht vorhanden"
+    quick_id = source.get("citavi_quick_id") or source.get("doi") or source.get("isbn") or source.get("url", "")
+    ris_file = source.get("citavi_ris_file") or f"sources/citavi/{source_id}.ris"
 
     content = f"""# Historisches Exzerpt: {source.get('title')}
 
@@ -40,11 +46,20 @@ def create_excerpt(source_id: str, thesis_topic: str = "Abschlussarbeit") -> Pat
 
 ---
 
+## 📚 Citavi-Import (Zauberstab & RIS)
+> **Zauberstab-ID fuer Citavi:** `{quick_id}`  
+> *(Kopiere diese ID und fuege sie in Citavi unter "Titel anhand von ISBN oder DOI erfassen" ein)*
+- **DOI:** `{doi_str}`
+- **ISBN:** `{isbn_str}`
+- **Direkter Datei-Import:** Doppelclick auf [`{ris_file}`](file:///{PROJECT_ROOT.as_posix()}/{ris_file}) oder Sammeldatei [`sources/citavi_import.ris`](file:///{PROJECT_ROOT.as_posix()}/sources/citavi_import.ris)
+
+---
+
 ## 1. Quellenkritische Einordnung (Historische W-Fragen)
 - **Wer spricht / verfasste die Quelle?** (Autor, soziale Stellung, Interessen)
 - **Wann und wo entstanden?** (Historischer Kontext)
 - **An wen gerichtet?** (Adressat: privat, amtlich, propagandistisch, publizistisch)
-- **Quellengattung:** (Primärquelle / Sekundärliteratur)
+- **Quellengattung:** (Primaerquelle / Sekundaerliteratur)
 
 ---
 
@@ -59,7 +74,7 @@ def create_excerpt(source_id: str, thesis_topic: str = "Abschlussarbeit") -> Pat
 ---
 
 ## 3. Zitiervorschlag fuer die Abschlussarbeit (Deutsche Zitierweise)
-> {source.get('author', 'N.N.')}: *{source.get('title')}*, {source.get('date_accessed', '')}, online unter: <{source.get('url', '')}> (abgerufen am {datetime.now().strftime('%d.%m.%Y')}).
+> {source.get('author', 'N.N.')}: *{source.get('title')}*, {source.get('date_accessed', '')[:4] if source.get('date_accessed') else ''}, online unter: <{source.get('url', '')}> (abgerufen am {datetime.now().strftime('%d.%m.%Y')}).
 """
 
     with open(excerpt_file, "w", encoding="utf-8") as f:
@@ -69,14 +84,14 @@ def create_excerpt(source_id: str, thesis_topic: str = "Abschlussarbeit") -> Pat
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Erstellt ein Vorlagen-Exzerpt fuer eine Quelle.")
+    parser = argparse.ArgumentParser(description="Erstellt ein Vorlagen-Exzerpt mit Citavi-Metadaten.")
     parser.add_argument("--source", required=True, help="ID der Quelle (z.B. src_001)")
     parser.add_argument("--topic", default="Abschlussarbeit", help="Thema / Fragestellung")
     args = parser.parse_args()
 
     try:
         path = create_excerpt(args.source, args.topic)
-        print(f"[ERFOLG] Exzerpt erstellt: {path}")
+        print(f"[ERFOLG] Exzerpt mit Citavi-Daten erstellt: {path}")
     except Exception as e:
         print(f"[FEHLER] {e}")
         sys.exit(1)
@@ -84,4 +99,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
