@@ -1,6 +1,7 @@
 # Einrichtung des automatischen 30-Minuten-Pushs in der Windows-Aufgabenplanung
 $taskName = "ErstesKIProjekt_AutoPush"
-$scriptPath = "C:\Users\ellye\Documents\Erstes KI Projekt\auto_push.ps1"
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$scriptPath = Join-Path $scriptDir "auto_push.ps1"
 
 # Vorhandene Aufgabe ggf. entfernen
 Unregister-ScheduledTask -TaskName $taskName -Confirm:$false -ErrorAction SilentlyContinue
@@ -17,5 +18,4 @@ $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoi
 # Aufgabe fuer aktuellen Benutzer registrieren
 Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Settings $settings -Description "Pusht alle 30 Minuten Aenderungen aus Erstes KI Projekt zu GitHub."
 
-Write-Output "Aufgabe '$taskName' erfolgreich eingerichtet! Laeuft alle 30 Minuten im Hintergrund."
-
+Write-Output "Aufgabe '$taskName' erfolgreich aktualisiert! Verweist auf $scriptPath."

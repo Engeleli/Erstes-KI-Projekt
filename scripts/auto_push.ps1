@@ -1,6 +1,7 @@
 # Auto-Push Script fuer Erstes KI Projekt
-$projectDir = "C:\Users\ellye\Documents\Erstes KI Projekt"
-$logFile = Join-Path $projectDir "auto_push.log"
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$projectDir = Split-Path -Parent $scriptDir
+$logFile = Join-Path $scriptDir "auto_push.log"
 
 function Write-Log {
     param([string]$message)
