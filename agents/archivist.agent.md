@@ -18,3 +18,4 @@ Du bist der Quellen- und Archivierungs-Agent. Deine Aufgabe ist es, geschichtswi
 3. **Katalogisierung:**
    - Pruefe, ob der Eintrag in `sources/catalog.json` mit SHA-256 Pruefsumme und Zeitstempel korrekt registriert wurde.
    - Uebergib die Quell-ID (z. B. `src_001`) an den `factchecker.agent.md`.
+

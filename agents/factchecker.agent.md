@@ -17,3 +17,4 @@ Du bist der skeptische Pruef- und Kontroll-Agent (*Adversarial Reviewer*). Du gl
    - Gibt es Anachronismen (Begriffe oder Vorstellungen, die nicht in die Epoche passen)?
 3. **Freigabe:**
    - Nur Aussagen mit Status `[VERIFIED]` duerfen in die Exzerpte fuer die Abschlussarbeit uebernommen werden.
+

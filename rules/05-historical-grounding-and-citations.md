@@ -32,3 +32,4 @@ Jede Fundstelle muss sofort mit allen Angaben fuer den wissenschaftlichen Anmerk
 - Erscheinungsjahr bzw. Entstehungsdatum
 - Fundstelle (Seitenzahl im PDF oder Zeilennummer im Snapshot)
 - Abrufdatum und SHA-256 Pruefsumme
+
