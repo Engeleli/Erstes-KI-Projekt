@@ -31,6 +31,42 @@
       "char_count": 17341,
       "verified": true,
       "citavi_ris_file": "sources\\citavi\\src_002.ris"
+    },
+    {
+      "id": "src_003",
+      "title": "Heinz Neukirchen (Wikipedia)",
+      "author": "Unbekannt",
+      "url": "https://de.wikipedia.org/wiki/Heinz_Neukirchen",
+      "doi": null,
+      "isbn": null,
+      "urn": null,
+      "citavi_quick_id": "https://de.wikipedia.org/wiki/Heinz_Neukirchen",
+      "source_type": "web",
+      "date_accessed": "2026-10-11T18:43:40",
+      "sha256": "3d9399585ab5ffc3bc30d0a48c28fed670be01a6b4982156a4dee05a3f54fd97",
+      "text_file": "sources\\raw\\src_003.txt",
+      "raw_file": "sources\\raw\\src_003_raw.html",
+      "char_count": 8996,
+      "verified": true,
+      "citavi_ris_file": "sources\\citavi\\src_003.ris"
+    },
+    {
+      "id": "src_004",
+      "title": "Neukirchen, Heinz | Wer war wer in der DDR (Wayback Machine)",
+      "author": "Helmut Mueller-Enbergs / Bundesstiftung Aufarbeitung",
+      "url": "https://web.archive.org/web/2024/https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/heinz-neukirchen",
+      "doi": null,
+      "isbn": null,
+      "urn": null,
+      "citavi_quick_id": "https://web.archive.org/web/2024/https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/heinz-neukirchen",
+      "source_type": "archive",
+      "date_accessed": "2026-10-11T18:49:35",
+      "sha256": "e4900713e1b20af86f956842423766aaa640cc4dae153947032658430f7925dc",
+      "text_file": "sources\\raw\\src_004.txt",
+      "raw_file": "sources\\raw\\src_004_raw.html",
+      "char_count": 2531,
+      "verified": true,
+      "citavi_ris_file": "sources\\citavi\\src_004.ris"
     }
   ]
 }
