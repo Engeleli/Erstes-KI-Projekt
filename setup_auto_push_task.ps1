@@ -18,3 +18,4 @@ $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoi
 Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Settings $settings -Description "Pusht alle 30 Minuten Aenderungen aus Erstes KI Projekt zu GitHub."
 
 Write-Output "Aufgabe '$taskName' erfolgreich eingerichtet! Laeuft alle 30 Minuten im Hintergrund."
+

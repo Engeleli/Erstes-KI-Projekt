@@ -44,3 +44,4 @@ if ($unpushed -or $changes) {
 } else {
     Write-Log "Bereits aktuell. Kein Push erforderlich."
 }
+
