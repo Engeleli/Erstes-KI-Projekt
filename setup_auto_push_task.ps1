@@ -5,16 +5,16 @@ $scriptPath = "C:\Users\ellye\Documents\Erstes KI Projekt\auto_push.ps1"
 # Vorhandene Aufgabe ggf. entfernen
 Unregister-ScheduledTask -TaskName $taskName -Confirm:$false -ErrorAction SilentlyContinue
 
-# Aktion definieren: PowerShell im Hintergrund ausführen
+# Aktion definieren: PowerShell im Hintergrund ausfuehren
 $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-WindowStyle Hidden -ExecutionPolicy Bypass -File `"$scriptPath`""
 
 # Trigger definieren: Startet jetzt und wiederholt sich alle 30 Minuten
 $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 30)
 
-# Einstellungen: Nicht im Leerlauf erzwingen, bei Akkubetrieb ausführen
+# Einstellungen: Bei Akkubetrieb ausfuehren, Timeout auf 10 Minuten
 $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 10)
 
-# Aufgabe für aktuellen Benutzer registrieren
-Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Settings $settings -Description "Pusht alle 30 Minuten Änderungen aus Erstes KI Projekt zu GitHub."
+# Aufgabe fuer aktuellen Benutzer registrieren
+Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Settings $settings -Description "Pusht alle 30 Minuten Aenderungen aus Erstes KI Projekt zu GitHub."
 
-Write-Output "Aufgabe '$taskName' erfolgreich eingerichtet! Läuft alle 30 Minuten im Hintergrund."
+Write-Output "Aufgabe '$taskName' erfolgreich eingerichtet! Laeuft alle 30 Minuten im Hintergrund."

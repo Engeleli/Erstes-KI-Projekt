@@ -1,4 +1,4 @@
-# Auto-Push Script für Erstes KI Projekt
+# Auto-Push Script fuer Erstes KI Projekt
 $projectDir = "C:\Users\ellye\Documents\Erstes KI Projekt"
 $logFile = Join-Path $projectDir "auto_push.log"
 
@@ -12,28 +12,28 @@ function Write-Log {
 
 Set-Location $projectDir
 
-# Prüfe, ob Remote-Repository existiert
+# Pruefe, ob Remote-Repository existiert
 $remote = git remote get-url origin 2>$null
 if (-not $remote) {
     Write-Log "WARNUNG: Kein Git-Remote 'origin' konfiguriert. Bitte erst mit GitHub verbinden."
     exit 1
 }
 
-# Prüfe auf geänderte oder neue Dateien
+# Pruefe auf geaenderte oder neue Dateien
 $changes = git status --porcelain
 if ($changes) {
-    Write-Log "Änderungen gefunden. Erstelle Commit..."
+    Write-Log "Aenderungen gefunden. Erstelle Commit..."
     git add -A
     $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     git commit -m "Auto-Commit: $timestamp" 2>&1 | Out-String | ForEach-Object { Write-Log $_.Trim() }
 } else {
-    Write-Log "Keine lokalen Dateiänderungen."
+    Write-Log "Keine lokalen Dateiaenderungen."
 }
 
-# Prüfe, ob Commits zum Pushen vorliegen
+# Pruefe, ob Commits zum Pushen vorliegen
 $unpushed = git cherry -v 2>$null
 if ($unpushed -or $changes) {
-    Write-Log "Pushe Änderungen zu GitHub..."
+    Write-Log "Pushe Aenderungen zu GitHub..."
     $pushOutput = git push origin main 2>&1 | Out-String
     Write-Log $pushOutput.Trim()
     if ($LASTEXITCODE -eq 0) {
